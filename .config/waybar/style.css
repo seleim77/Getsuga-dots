@@ -1,0 +1,78 @@
+@import "colors/colors.css";
+
+* {
+    all: unset;
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-weight: 700;
+}
+
+window#waybar {
+    background-color: transparent;
+}
+
+/* One shared container for everything in the center group (workspaces + clock) */
+.modules-center {
+    background: linear-gradient(135deg, #FFB078 0%, #000000 40%);
+    color: @fore;
+    border-radius: 99px;
+    margin: 6px 4px;
+    padding: 2px 4px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Individual containers - one bubble per module - for left and right side modules */
+#pulseaudio,
+#network,
+#battery,
+#cava {
+    background: linear-gradient(135deg , #DEA850 0%, #000000 40%);
+    color: #FFB078;
+    border-radius: 99px;
+    margin: 4px 4px;
+    padding: 2px 12px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.4);
+
+}
+
+#workspaces {
+    min-width: 100px;
+    font-size: 0.4rem;
+    padding: 2px 4px;
+    margin: 5px 0;
+}
+
+#workspaces button {
+    background-color: white;
+    color: transparent;
+    border-radius: 16px;
+    margin: 0 2px;
+    padding: 0px 10px;
+    min-width: 10px; 
+    transition: all 0.2s ease-in-out;
+}
+
+#workspaces button.active {
+    background: linear-gradient(135deg, #05A0E8, #F77A48);
+    min-width: 28px;
+    transition: all 0.2s ease-in-out;
+}
+
+#clock {
+    padding: 2px 10px;
+    font-weight: 700;
+    font-size: 1.05rem;
+}
+
+#cava {
+    font-family: "Font Awesome 6 Free", "JetBrainsMono Nerd Font", monospace;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+}
+
+.modules-left {
+    margin-left: 12px;
+}
+
+.modules-right {
+    margin-right: 12px;
+}

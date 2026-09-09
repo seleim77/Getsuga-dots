@@ -1,0 +1,189 @@
+{
+  "general": {
+    "language": "en",
+    "avatarPath": "/home/selim/Pictures/Wallpapers/gojo.png",
+    "muteSfx": false,
+    "weatherInterval": 15,
+    "weatherUnit": "metric",
+    "location": {
+      "ip": "196.156.233.130",
+      "latitude": 30.00819,
+      "longitude": 31.210788,
+      "city": "Giza",
+      "region": "Giza",
+      "region_code": "GZ",
+      "country_name": "Egypt",
+      "country_code": "EG",
+      "postal": null,
+      "timezone": "Africa/Cairo",
+      "utc_offset": "+0300",
+      "currency": "EGP",
+      "languages": "ar-EG,en,fr",
+      "asn": "AS36935",
+      "org": "Vodafone Data",
+      "source": "ipapi.co",
+      "updated_at": 1788753284
+    },
+    "sfxVolume": 100,
+    "screenshotCaptureOnRelease": false,
+    "quickactions": true
+  },
+  "syspanel": {
+    "clipExpandProgress": 0,
+    "clipExpanded": false,
+    "clipState": 1
+  },
+  "bar": {
+    "position": "top",
+    "width": 100,
+    "opacity": 100,
+    "style": "modular",
+    "time": {
+      "format": "hh:mm AP"
+    },
+    "autohide": false,
+    "autohideTimeout": 1000,
+    "modules": {
+      "left": [
+        "sysmon",
+        "media"
+      ],
+      "center": [
+        [
+          "weather",
+          "workspaces",
+          "timedate",
+          "info"
+        ]
+      ],
+      "right": [
+        [
+          "wifi",
+          "vol",
+          "bat"
+        ]
+      ]
+    },
+    "distinctPills": false,
+    "workspaceCount": 7,
+    "groupColors": {
+      "g_timedate": "#b4c5ff",
+      "g_kb": "#5a3d58",
+      "g_weather": "#cba6f7",
+      "g_wifi": "#83d5c5"
+    }
+  },
+  "theme": {
+    "fontFamily": "Adwaita Sans",
+    "borderRadius": 64,
+    "activePreset": "Matugen",
+    "matugen": true,
+    "colors": {
+      "base": "#000000",
+      "blue": "#ffffff",
+      "crust": "#000000",
+      "green": "#ffffff",
+      "mantle": "#050505",
+      "maroon": "#808080",
+      "mauve": "#d0d0d0",
+      "overlay0": "#5a5a5a",
+      "overlay1": "#7a7a7a",
+      "overlay2": "#9a9a9a",
+      "peach": "#cccccc",
+      "pink": "#e0e0e0",
+      "red": "#a0a0a0",
+      "sapphire": "#e0e0e0",
+      "subtext0": "#a0a0a0",
+      "subtext1": "#c0c0c0",
+      "surface0": "#1a1a1a",
+      "surface1": "#2a2a2a",
+      "surface2": "#3a3a3a",
+      "teal": "#c0c0c0",
+      "text": "#ffffff",
+      "yellow": "#ffffff"
+    }
+  },
+  "idle": {
+    "enabled": true,
+    "actions": {
+      "dim": {
+        "id": "dim",
+        "timeout": 150,
+        "enabled": false,
+        "respectInhibitors": true,
+        "mprisInhibit": false,
+        "command": "",
+        "resumeCommand": "",
+        "isCustom": false
+      },
+      "dpms": {
+        "id": "dpms",
+        "timeout": 450,
+        "enabled": false,
+        "respectInhibitors": true,
+        "mprisInhibit": false,
+        "command": "",
+        "resumeCommand": "",
+        "isCustom": false
+      },
+      "lock": {
+        "id": "lock",
+        "timeout": 500,
+        "enabled": true,
+        "respectInhibitors": true,
+        "mprisInhibit": false,
+        "command": "",
+        "resumeCommand": "",
+        "isCustom": false
+      },
+      "suspend": {
+        "id": "suspend",
+        "timeout": 600,
+        "enabled": false,
+        "respectInhibitors": true,
+        "mprisInhibit": false,
+        "command": "",
+        "resumeCommand": "",
+        "isCustom": false
+      }
+    },
+    "manualInhibit": false
+  },
+  "notifications": {
+    "dnd": false,
+    "position": "top right",
+    "sound": true,
+    "soundFile": "/home/selim/.local/share/serpantinum/src/assets/sounds/notifications/Sine.wav"
+  },
+  "display": {
+    "monitors": {
+      "eDP-1": {
+        "enabled": false,
+        "scale": 1
+      }
+    }
+  },
+  "launcher": {
+    "position": "center",
+    "width": 600,
+    "itemCount": 6,
+    "terminalCommand": "kitty -e",
+    "smartRanking": true
+  },
+  "dock": {
+    "enabled": false,
+    "position": "right",
+    "elementSize": 46,
+    "floating": false,
+    "opacity": 0,
+    "autohide": false,
+    "autohideTimeout": 1000,
+    "editing": false,
+    "apps": [],
+    "overrideBoundsCorrection": false,
+    "enableScrolling": true,
+    "visibleElements": 6,
+    "hoverScale": 130,
+    "cascadeScale": true
+  }
+}

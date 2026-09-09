@@ -1,0 +1,88 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+format = """
+[░▒▓](#e6e6e6)\
+$os\
+[](bg:#ffffff fg:#e6e6e6)\
+$directory\
+[](fg:#ffffff bg:#2e2e2e)\
+$git_branch\
+$git_status\
+[](fg:#2e2e2e bg:#1a1a1a)\
+$nodejs\
+$bun\
+$rust\
+$golang\
+$php\
+[](fg:#1a1a1a bg:#101010)\
+$time\
+[ ](fg:#101010)\
+\n$character"""
+[directory]
+style = "fg:#000000 bg:#ffffff"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+[git_branch]
+symbol = ""
+style = "bg:#2e2e2e"
+format = '[[ $symbol $branch ](fg:#ffffff bg:#2e2e2e)]($style)'
+[git_status]
+style = "bg:#2e2e2e"
+format = '[[($all_status$ahead_behind )](fg:#ffffff bg:#2e2e2e)]($style)'
+[nodejs]
+symbol = ""
+style = "bg:#1a1a1a"
+format = '[[ $symbol ($version) ](fg:#ffffff bg:#1a1a1a)]($style)'
+[bun]
+symbol = ""
+style = "bg:#1a1a1a"
+format = '[[ $symbol ($version) ](fg:#ffffff bg:#1a1a1a)]($style)'
+[rust]
+symbol = ""
+style = "bg:#1a1a1a"
+format = '[[ $symbol ($version) ](fg:#ffffff bg:#1a1a1a)]($style)'
+[golang]
+symbol = ""
+style = "bg:#1a1a1a"
+format = '[[ $symbol ($version) ](fg:#ffffff bg:#1a1a1a)]($style)'
+[php]
+symbol = ""
+style = "bg:#1a1a1a"
+format = '[[ $symbol ($version) ](fg:#ffffff bg:#1a1a1a)]($style)'
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:#101010"
+format = '[[  $time ](fg:#cccccc bg:#101010)]($style)'
+[os]
+style = "bg:#e6e6e6 fg:#000000"
+format = "[ $symbol ]($style)"
+disabled = false
+[os.symbols]
+Windows = "󰍲"
+Ubuntu = "󰕈"
+SUSE = ""
+Raspbian = "󰐿"
+Mint = "󰣭"
+Macos = "󰀵"
+Manjaro = ""
+Linux = "󰌽"
+Gentoo = "󰣨"
+Fedora = "󰣛"
+Alpine = ""
+Amazon = ""
+Android = ""
+AOSC = ""
+Arch = "󰣇"
+Artix = "󰣇"
+EndeavourOS = ""
+CentOS = ""
+Debian = "󰣚"
+Redhat = "󱄛"
+RedHatEnterprise = "󱄛"
+Pop = ""

@@ -1,0 +1,80 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "d724ab07b9f701cf25c0732f4fe0b5bee6c4115af5ec392ff1d8ff5b747f9317",
+    "telemetry.devDeviceId": "daca2a05-9937-40da-94fb-a3e86632c9a6",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/selim/.config/fastfetch"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 30,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/selim/.config/catnap": "__default__profile__",
+            "file:///home/selim/.config/fastfetch": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/selim/.config/fastfetch",
+            "backupPath": "/home/selim/.config/VSCodium/Backups/2358e10fb9fb3bc84c3c61cbc679ebb4",
+            "uiState": {
+                "mode": 0,
+                "x": 140,
+                "y": 10,
+                "width": 1320,
+                "height": 941
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#0b1020",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#dde7f3",
+            "background": "#0b1020",
+            "editorBackground": "#0b1020",
+            "titleBarBackground": "#080d1a",
+            "activityBarBackground": "#070b16",
+            "activityBarBorder": "#050810",
+            "sideBarBackground": "#080d1a",
+            "sideBarBorder": "#050810",
+            "statusBarBackground": "#050810",
+            "statusBarNoFolderBackground": "#050810"
+        },
+        "layoutInfo": {
+            "sideBarSide": "right",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 30,
+            "activityBarWidth": 0,
+            "sideBarWidth": 365,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 365,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "e2c088f3fe0116c500b9057137353ec2": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "b4661273ea2af94e444b38b01098e491": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

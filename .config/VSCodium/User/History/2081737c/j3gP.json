@@ -1,0 +1,15 @@
+{
+  "window.menuBarVisibility": "compact",
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top",
+  "window.commandCenter": false,
+  "workbench.startupEditor": "none",
+  "editor.fontSize": 28,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onWindowChange",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'FiraCodeNerdFontMono', 'monospace'",
+  "editor.formatOnPaste": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+}

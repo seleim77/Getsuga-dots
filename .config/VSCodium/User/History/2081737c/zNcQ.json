@@ -1,0 +1,7 @@
+{
+    "window.menuBarVisibility": "compact",
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "top",
+    "window.commandCenter": false,
+    "workbench.startupEditor": "none"
+}

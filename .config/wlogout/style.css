@@ -1,0 +1,59 @@
+/* Main window background (overlay over your desktop) */
+window {
+    background-color: rgba(30, 30, 46, 0.85); /* Dark blur/transparency effect */
+    font-family: "Fira Code", "Noto Sans", sans-serif;
+    font-size: 14pt;
+}
+
+/* Global button styling */
+button {
+    color: #cdd6f4;
+    background-color: #313244;
+    outline-style: none;
+    border: 2px solid #45475a;
+    border-radius: 12px;
+    margin: 10px; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Hover, active, and focus states */
+button:focus, 
+button:active, 
+button:hover {
+    background-color: #89b4fa;
+    color: #11111b;
+    border-color: #89b4fa;
+    background-size: 35%;
+}
+
+/* -------------------------------------------------------------
+   Individual Button Icons (Matched with 'label' in layout file)
+   ------------------------------------------------------------- */
+
+#lock {
+    background-image: url("/usr/share/wlogout/icons/lock.png");
+}
+
+#logout {
+    background-image: url("/usr/share/wlogout/icons/logout.png");
+}
+
+#suspend {
+    background-image: url("/usr/share/wlogout/icons/suspend.png");
+}
+
+#hibernate {
+    background-image: url("/usr/share/wlogout/icons/hibernate.png");
+}
+
+#shutdown {
+    background-image: url("/usr/share/wlogout/icons/shutdown.png");
+}
+
+#reboot {
+    background-image: url("/usr/share/wlogout/icons/reboot.png");
+}
+

@@ -1,0 +1,171 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "source": "/home/selim/.config/fastfetch/vasto lord.png",
+    "height": 30,
+    "type": "kitty",
+    "color": {
+      "1": "#b3c5ff",
+      "2": "#e2bbdc",
+      "3": "#c1c6dd"
+    },
+    "padding": {
+      "top": 1,
+      "left": 2,
+      "right": 3
+    }
+  },
+  "display": {
+    "separator": "  ",
+    "color": {
+      "separator": "#e3e2e9"
+    }
+  },
+ "modules": [
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[33m┌──────────────────────Hardware──────────────────────┐"
+        },
+        {
+            "type": "host",
+            "key": " PC",
+            "keyColor": "red",
+            "format": "MacBook Pro (14-inch, 2024)"
+        },
+        {
+            "type": "cpu",
+            "key": "│ ├",
+            "showPeCoreCount": true,
+            "keyColor": "red"
+        },
+        {
+            "type": "gpu",
+            "key": "│ ├󰢮",
+            "keyColor": "red"
+        },
+        {
+            "type": "memory",
+            "key": "│ ├",
+            "keyColor": "red"
+        },
+        {
+            "type": "disk",
+            "key": "│ └",
+            "keyColor": "red",
+	    "format": "{1} / {2} ({3}) - {9}"
+	},
+        {
+            "type": "custom",
+            "format": "\u001b[33m└────────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[33m┌──────────────────────Software──────────────────────┐"
+        },
+        {
+            "type": "os",
+            "key": "󰀵 OS",
+            "keyColor": "green"
+        },
+        {
+            "type": "kernel",
+            "key": "│ ├",
+            "keyColor": "green"
+        },
+        {
+            "type": "packages",
+            "key": "│ ├󰏖",
+            "keyColor": "green"
+        },
+	{
+	    "type": "terminal",
+            "key": "│ ├",
+            "keyColor": "green"
+        },
+	{
+            "type": "shell",
+            "key": "└ └",
+            "keyColor": "green"
+        },
+        "break",
+        {
+            "type": "de",
+            "key": " DE",
+            "keyColor": "blue"
+        },
+        {
+            "type": "lm",
+            "key": "│ ├",
+            "keyColor": "blue"
+        },
+        {
+            "type": "wm",
+            "key": "│ ├",
+            "keyColor": "blue"
+        },
+        {
+            "type": "wmtheme",
+            "key": "│ ├󰉼",
+            "keyColor": "blue"
+        },
+	{
+	    "type": "font",
+	    "key": "│ ├",
+	    "keyColor": "blue"
+	},
+	{
+	    "type": "cursor",
+	    "key": "│ ├󰆿",
+	    "keyColor": "blue"
+	},
+        {
+            "type": "custom",
+            "format": "\u001b[33m└────────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[33m┌───────────────────Miscellaneous────────────────────┐"
+        },
+        {
+            "type": "uptime",
+            "key": "  Uptime",
+            "keyColor": "magenta"
+        },
+	{
+	    "type": "command",
+	    "text": "battery",
+	    "shell": "/opt/homebrew/bin/fish",
+	    "key": "  Battery",
+	    "keyColor": "magenta"
+	},
+	{ 
+	    "type": "media",
+	    "key": "  Music",
+	    "keyColor": "magenta",
+	    "format": "{1} - {4}"
+	},
+	{
+	    "type": "datetime",
+	    "key": "  Date and Time",
+	    "keyColor": "magenta",
+	    "format": "{3}/{11}/{1} - {14}:{18} {22}"
+	},
+	{ 
+	    "type": "custom",
+	    "format": "  A star can only truly be seen in the darkness...",
+	    "outputColor": "cyan"
+	},
+        {
+            "type": "custom",
+            "format": "\u001b[33m└────────────────────────────────────────────────────┘"
+        },
+        {"type": "colors",
+        "paddingLeft": 20,
+        "symbol": "star"
+        },
+        "break"
+    ]
+}

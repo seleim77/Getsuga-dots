@@ -1,0 +1,5 @@
+{
+    "window.menuBarVisibility": "compact",
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "top"
+}
